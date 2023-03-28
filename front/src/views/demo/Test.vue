@@ -13,7 +13,8 @@ export default {
   data(){
     return {
       message:'通用组件',
-      data:''
+      data:'',
+      test:'测试'
     }
   }
 
