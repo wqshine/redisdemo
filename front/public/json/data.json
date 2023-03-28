@@ -1,0 +1,149 @@
+{
+  "registerData":[
+    {"name":"武汉市","value":15},
+    {"name":"襄阳市","value":50},
+    {"name":"宜昌市","value":70},
+    {"name":"荆州市","value":40},
+    {"name":"孝感市","value":10},
+    {"name":"黄冈市","value":46},
+    {"name":"十堰市","value":90},
+    {"name":"荆门市","value":90},
+    {"name":"黄石市","value":90},
+    {"name":"咸宁市","value":90},
+    {"name":"恩施州","value":90},
+    {"name":"随州市","value":90},
+    {"name":"鄂州市","value":90},
+    {"name":"仙桃市","value":90},
+    {"name":"潜江市","value":90},
+    {"name":"天门市","value":90},
+    {"name":"林区","value":90}
+
+  ],
+  "mapData":[
+    {"name":"武汉市","value":15},
+    {"name":"襄阳市","value":50},
+    {"name":"宜昌市","value":70},
+    {"name":"荆州市","value":40},
+    {"name":"孝感市","value":10},
+    {"name":"黄冈市","value":46},
+    {"name":"十堰市","value":90},
+    {"name":"荆门市","value":90},
+    {"name":"黄石市","value":90},
+    {"name":"咸宁市","value":90},
+    {"name":"恩施土家族苗族自治州","value":90},
+    {"name":"随州市","value":90},
+    {"name":"鄂州市","value":90},
+    {"name":"仙桃市","value":90},
+    {"name":"潜江市","value":90},
+    {"name":"天门市","value":90},
+    {"name":"神农架林区","value":90}],
+
+
+  "dealData":[
+    {"name":"仙桃市","number":65,"area":5987.98,"dealPrice":2526.88,"taxPrice":2530.30,"increasePrice":64,"increaseRate":1},
+    {"name":"十堰市","number":88,"area": 8546.61,"dealPrice": 2952.20,"taxPrice": 2952.20,"increasePrice":72,"increaseRate":16},
+    {"name":"咸宁市","number":43,"area": 4130.92,"dealPrice": 797.71,"taxPrice": 797.71,"increasePrice":27,"increaseRate":6},
+    {"name":"天门市","number":30,"area": 3126.27,"dealPrice": 994.00,"taxPrice": 994.00,"increasePrice":28,"increaseRate":2},
+    {"name":"孝感市","number":45,"area": 4310.65,"dealPrice": 1709.80,"taxPrice": 1709.80,"increasePrice":27,"increaseRate":9},
+    {"name":"宜昌市","number":142,"area": 13976.17,"dealPrice": 5359.27,"taxPrice": 6345.90,"increasePrice":97,"increaseRate":39},
+    {"name":"恩施州","number":23,"area": 2159.32,"dealPrice": 1254.43,"taxPrice": 1354.43,"increasePrice":23,"increaseRate":0},
+    {"name":"潜江市","number":66,"area": 6214.62,"dealPrice": 1480.71,"taxPrice": 1496.31,"increasePrice":48,"increaseRate":13},
+    {"name":"荆州市","number":83,"area": 7836.29,"dealPrice": 3355.48,"taxPrice": 3365.14,"increasePrice":81,"increaseRate":2},
+    {"name":"荆门市","number":28,"area": 2713.42,"dealPrice": 947.30,"taxPrice": 947.30,"increasePrice":28,"increaseRate":0},
+    {"name":"襄阳市","number":122,"area": 11964.35,"dealPrice": 4269.64,"taxPrice": 4272.64,"increasePrice":80,"increaseRate":28},
+    {"name":"鄂州市","number":78,"area": 7324.58,"dealPrice": 1770.09,"taxPrice": 1770.09,"increasePrice":76,"increaseRate":0},
+    {"name":"随州市","number":66,"area": 6125.21,"dealPrice": 1130.60,"taxPrice": 1130.60,"increasePrice":41,"increaseRate":25},
+    {"name":"黄冈市","number":20,"area": 2006.13,"dealPrice": 734.77,"taxPrice": 853.92,"increasePrice":17,"increaseRate":3},
+    {"name":"黄石市","number":100,"area": 10564.23,"dealPrice": 2256.96,"taxPrice": 2347.82,"increasePrice":79,"increaseRate":20},
+    {"name":"林区","number":3,"area": 252.18,"dealPrice": 63.30,"taxPrice": 63.30,"increasePrice":3,"increaseRate":0},
+    {"name":"武汉市","number":0,"area":0,"dealPrice":0,"taxPrice":0,"increasePrice":0,"increaseRate":0}
+    ],
+
+  "dealArea":[
+    {"name":"买卖","value":791},
+    {"name":"其他","value":164},
+    {"name":"析产","value":47}
+  ],
+  "dealType":[
+    {"name":"买卖","value":791},
+    {"name":"其他","value":164},
+    {"name":"析产","value":47}],
+  "houseType":[
+    {"name":"仙桃","value":0},
+    {"name":"十堰","value":0},
+    {"name":"咸宁","value":10},
+    {"name":"天门","value":0},
+    {"name":"孝感","value":9},
+    {"name":"宜昌","value":6},
+    {"name":"恩施","value":0},
+    {"name":"潜江","value":5},
+    {"name":"荆州","value":0},
+    {"name":"荆门","value":0},
+    {"name":"襄阳","value":14},
+    {"name":"鄂州","value":2},
+    {"name":"随州","value":0},
+    {"name":"黄冈","value":0},
+    {"name":"黄石","value":1},
+    {"name":"林区","value":0}],
+  "declare":{
+    "legend":["价格走势", "通过率"],
+    "xAxis":["2017", "2018", "2019", "2020", "2021"],
+    "data1":[2.0, 4.9, 7.0, 23.2, 25.6, 76.7],
+    "data2":[20, 22, 33, 45, 63]
+  },
+  "dealNumber":{
+    "legend":["2018年","2019年","同比涨幅"],
+    "xAxis":["1月", "2月", "3月", "4月", "5月", "6月","7月","8月","9月","10月","11月","12月"],
+    "data1":[180,-164,153,172,134,120,135,180,-164,153,172,134,120,135],
+    "data2":[180,-164,153,172,134,120,135,180,-164,153,172,134,120,135],
+    "data3":[85,-81,79,80,64,70,72,85,-81,79,80,64,70,72]
+  },
+  "deletionRate":{
+    "legend":["匹配率"],
+    "xAxis":["2017", "2018", "2019", "2020", "2021"],
+    "data1":[2.0, 4.9, 7.0, 23.2, 25.6, 76.7]
+  },
+  "housePriceData":[
+    {"name":"武汉市","number":200,"oneToOne":200,"auto":20000,"manual":30000,"deletion":40000,"oneToOneRate":5,"autoRate":10,"manualRate":10,"deletionRate":10},
+    {"name":"襄阳市","number":80,"oneToOne":200,"auto":20000,"manual":30000,"deletion":40000,"oneToOneRate":5,"autoRate":10,"manualRate":10,"deletionRate":10},
+    {"name":"宜昌市","number":15,"oneToOne":200,"auto":20000,"manual":30000,"deletion":40000,"oneToOneRate":5,"autoRate":10,"manualRate":10,"deletionRate":10},
+    {"name":"荆州市","number":50,"oneToOne":200,"auto":20000,"manual":30000,"deletion":40000,"oneToOneRate":5,"autoRate":10,"manualRate":10,"deletionRate":10},
+    {"name":"孝感市","number":22,"oneToOne":200,"auto":20000,"manual":30000,"deletion":40000,"oneToOneRate":5,"autoRate":10,"manualRate":10,"deletionRate":10},
+    {"name":"黄冈市","number":22,"oneToOne":200,"auto":20000,"manual":30000,"deletion":40000,"oneToOneRate":5,"autoRate":10,"manualRate":10,"deletionRate":10},
+    {"name":"十堰市","number":22,"oneToOne":200,"auto":20000,"manual":30000,"deletion":40000,"oneToOneRate":5,"autoRate":10,"manualRate":10,"deletionRate":10}],
+  "housePriceChart":{
+    "legend":["匹配率"],
+    "xAxis":["2017", "2018", "2019", "2020", "2021"],
+    "data1":[2.0, 4.9, 7.0, 23.2, 25.6, 76.7]
+  },
+  "realTimeUpdate":[
+    {"name":"咸宁市吉星农产品国际物流有限公司","county":"咸宁市","time":"2021-01-22 12:45:36","declare":"咸宁市江南地区","area":200,"tax":25100},
+    {"name":"咸宁市吉星农产品国际物流有限公司","county":"咸宁市","time":"2021-01-22 12:45:36","declare":"咸宁市江南地区","area":200,"tax":25100},
+    {"name":"咸宁市吉星农产品国际物流有限公司","county":"咸宁市","time":"2021-01-22 12:45:36","declare":"咸宁市江南地区","area":200,"tax":25100},
+    {"name":"咸宁市吉星农产品国际物流有限公司","county":"咸宁市","time":"2021-01-22 12:45:36","declare":"咸宁市江南地区","area":200,"tax":25100},
+    {"name":"咸宁市吉星农产品国际物流有限公司","county":"咸宁市","time":"2021-01-22 12:45:36","declare":"咸宁市江南地区","area":200,"tax":25100},
+    {"name":"咸宁市吉星农产品国际物流有限公司","county":"咸宁市","time":"2021-01-22 12:45:36","declare":"咸宁市江南地区","area":200,"tax":25100}
+  ],
+   "houseTypes":[
+  {"name":"全部","value":0},
+  {"name":"住宅","value":1},
+  {"name":"车位","value":2},
+  {"name":"写字楼","value":3},
+  {"name":"小型商铺","value":4},
+  {"name":"大型商场超市","value":5},
+  {"name":"加油站","value":6},
+  {"name":"酒店宾馆","value":7},
+  {"name":"单车间","value":8},
+  {"name":"特殊物业","value":9}
+   ],
+
+  "geoMap" : [
+    {"name":"武汉市","value":[114.298572, 30.584355]},
+    {"name":"襄阳市","value":[112.144146, 32.042426]},
+    {"name":"宜昌市","value":[111.290843, 30.702636]},
+    {"name":"荆州市","value":[113.926655, 30.926423]},
+    {"name":"孝感市","value":[114.298572, 30.584355]},
+    {"name":"黄冈市","value":[115.579365, 30.447711]}
+  ]
+
+}

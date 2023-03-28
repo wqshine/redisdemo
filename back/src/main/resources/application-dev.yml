@@ -1,0 +1,57 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          batch_size: 10
+
+  datasource:
+      url: jdbc:mysql://localhost:3306/redisdemo?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: mysql123
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      hikari:
+        connection-timeout: 60000
+        validation-timeout: 3000
+        login-timeout: 5
+        max-lifetime: 60000
+        maximum-pool-size: 10
+        minimum-idle: 10
+        read-only: false
+
+
+
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1ms
+        max-idle: 5
+        min-idle: 0
+
+  session:
+    store-type: redis
+    redis:
+      flush-mode: on_save
+      namespace: spring::session
+
+logging:
+  level:
+    root: debug
+    web: debug
+    org.hibernate: warn
+
+
+springdoc:
+  swagger-ui:
+    csrf:
+      enabled: true

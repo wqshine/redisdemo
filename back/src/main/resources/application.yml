@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: redisdemo
+  profiles:
+    active: dev
+  jpa:
+    open-in-view: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+server:
+  port: 8080
+  servlet:
+    context-path: /redisdemo
+
