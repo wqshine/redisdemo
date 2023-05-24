@@ -94,7 +94,7 @@ parallel: require('os').cpus().length > 1,
 // 配置 webpack-dev-server 行为。
 devServer: {
   open: process.platform === 'darwin',
-    host: '192.168.7.23',
+    host: '192.168.201.246',
     port: 8084,
     https: false,
     hotOnly: false,
